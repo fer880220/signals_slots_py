@@ -2,7 +2,7 @@
 
 _Clase base para implementar en python el mecanismo de signals y slots estilo Qt_
 
-## Este repo consta de un solo fichero **signals_slots.py**. 
+Este repo consta de un solo fichero **signals_slots.py**. 
 El código tiene una clase base que resuelve el problema:
 ```
 class SigSlotObject:
