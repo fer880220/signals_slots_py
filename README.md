@@ -21,7 +21,7 @@ class Emiter(SigSlotObject):
 		self.ready(msg ) #emitiendo la señal ´ready´
 ```
 
-La clase **Receiver es la que recibe la señal:
+La clase **Receiver** es la que recibe la señal:
 ```
 class Receiver:
 	def __init__(self , val):
