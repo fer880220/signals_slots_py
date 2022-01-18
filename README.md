@@ -16,9 +16,9 @@ class Emiter(SigSlotObject):
 		SigSlotObject.__init__(self)
 		self.signal('ready') #declaración de la señal ´ready´
 		
-  #emiter 
+	#emiter 
 	def emitir(self , msg):
-    #algo de procesamiento antes de emitir la señal
+		#algo de procesamiento antes de emitir la señal
 		self.ready(msg ) #emitiendo la señal ´ready´
 ```
 
